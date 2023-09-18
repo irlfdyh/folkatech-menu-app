@@ -3,6 +3,7 @@ import 'package:folkatech_product_app/widget/menu_item.dart';
 
 import '../entity/menu_entity.dart';
 
+/// Screen to display menu list
 class Menu extends StatelessWidget {
   const Menu({super.key});
 

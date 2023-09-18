@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Reusable item to show product in grid layout
 class ListItemWidget extends StatelessWidget {
   final String title;
   final String subtitle;

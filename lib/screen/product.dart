@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 import '../entity/menu_entity.dart';
 import '../widget/product_item.dart';
 
+/// Screen that display product data
 class Product extends StatefulWidget {
   const Product({ super.key });
 
@@ -117,6 +118,7 @@ class ProductState extends State<Product> {
   }
 }
 
+/// Function to help navigate to menu screen with animation
 Route navigateToMenu() {
   return PageRouteBuilder(
     pageBuilder: (context, animation, secondaryAnimation) => const Menu(),

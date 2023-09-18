@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:folkatech_product_app/entity/product_entity.dart';
 import 'package:transparent_image/transparent_image.dart';
 
+/// Screen that display product detail based on given data
 class ProductDetail extends StatelessWidget {
   const ProductDetail({super.key, required this.product});
 

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../entity/menu_entity.dart';
 
+/// Reusable item to show menu in grid layout.
 class MenuItem extends StatelessWidget {
 
   final MenuEntity menu;
